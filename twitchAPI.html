@@ -1,15 +1,25 @@
-<div id="twitchTitle"><img src="http://fontmeme.com/permalink/170507/13a928cd22d83d97973a87911160f596.png" alt="twitch-logo-font" border="0"></div>
-<div id="container">
-  <ul id="category">
-    <li id="allChannel" class="active">All</li>
-    <li id="onlineChannel">Online</li>
-    <li id="offlineChannel">Offline</li>
-  </ul>
-  <div id="inputs">
-    <input id="searchBar" type="search" placeholder="Search Stream List"/>
-    <input id="addStream" type="search" placeholder="Add Stream"/>
-    <p id="text">Find or add your favorite Twitch.tv streamer!</p>
+<html>
+  <head>
+    <title>Twitch API</title>
+    <link rel="stylesheet" type="text/css" href="twitchAPI.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+</html>
+<body>
+  <div id="twitchTitle"><img src="http://fontmeme.com/permalink/170507/13a928cd22d83d97973a87911160f596.png" alt="twitch-logo-font" border="0"></div>
+  <div id="container">
+    <ul id="category">
+      <li id="allChannel" class="active">All</li>
+      <li id="onlineChannel">Online</li>
+      <li id="offlineChannel">Offline</li>
+    </ul>
+    <div id="inputs">
+      <input id="searchBar" type="search" placeholder="Search Stream List"/>
+      <input id="addStream" type="search" placeholder="Add Stream"/>
+      <p id="text">Find or add your favorite Twitch.tv streamer!</p>
+    </div>
+    <ul id="channel">
+    </ul>
   </div>
-  <ul id="channel">
-  </ul>
-</div>
+  <script type="text/javascript" src="twitchAPI.js"></script>
+</body>
