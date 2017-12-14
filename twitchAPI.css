@@ -1,0 +1,100 @@
+a {
+  display: block;
+  height: 70px;
+  letter-spacing: 1.3px;
+  border: 4px solid #6441A5;
+  text-decoration: none;
+  padding-top: 30px;
+  color: #6441A5;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  color: #6441A5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  text-transform: uppercase;
+  color: white;
+}
+
+.logo {
+  width: 70px;
+  border-radius: 100%;
+  float: left;
+  margin: -15px 20px;
+  border: 2px solid white;
+}
+
+.online, #onlineChannel {
+  background: rgba(188, 255, 85, 0.8);
+}
+
+.offline, #offlineChannel{
+  background: rgba(0, 255, 255, 0.8);
+}
+
+.nonexistent, #allChannel {
+  background: rgba(255, 101, 79, 0.8);
+}
+
+.active {
+  box-shadow: 3px 3px 1px black inset;
+  transition: all ease 0.5s;
+}
+
+#container {
+  border: 1px solid #6441A5;
+  margin: 0 auto;
+  width: 500px;
+  background: #6441A5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#category {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#category li {
+  display: inline;
+  list-style-type: none;
+  padding: 12px 61px;
+  border: 2px solid white;
+  color: #6441A5;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#channel li {
+  list-style-type: none;
+}
+
+#twitchTitle {
+  text-align: center;
+}
+
+#inputs {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#searchBar {
+  margin-right: 30px;
+}
+
+#searchBar, #addStream {
+  width: 40%;
+  height: 25px;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+}
